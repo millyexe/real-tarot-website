@@ -57,7 +57,7 @@ min-height: 10vh;
 }
 
 .slider{
-    background: rgb(195, 195, 255);
+    background: rgb(0, 0, 0);
     position: fixed;
     top: 0;
     left: 0;
