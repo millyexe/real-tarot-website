@@ -125,13 +125,13 @@ display: inline-block;
 .first-card{
 
     width: 100px;
-    height: 100px;
+    height: 150px;
 
 }
 
 
 .shit{
-
+    list-style: none;
     display: flex;
     justify-content: center;
     margin-top: 300px;
