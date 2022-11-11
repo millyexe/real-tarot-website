@@ -4,19 +4,19 @@ main{
 
 .loading{
     min-height: 100vh;
-    background: url(./istockphoto-1077626348-612x612.jpg);
+    background: url(./pink-sky-background-with-crescent-moon_53876-129048.webp);
     background-size: cover;
     padding: 0rem 5rem;
 }
 
-nav{
+ nav{
 display: flex;
 align-items: center;
 justify-content: space-between;
 min-height: 10vh;
 }
 
-.nav-links{
+ .nav-links{
     display: flex;
     list-style: none;
 }
@@ -24,7 +24,7 @@ min-height: 10vh;
 
     padding-left: 2rem;
     font-size: 1.2rem;
-}
+} 
 
 #Logo{
     font-family: "Lobster", cursive;
@@ -37,7 +37,7 @@ min-height: 10vh;
     top: 30%;
     left: 50%;
     transform: translate(-50%,-30%);
-    font-size: 5rem;
+    font-size: 3rem;
     font-family: "Lobster", cursive;
 }
 .intro{
@@ -51,7 +51,7 @@ min-height: 10vh;
 }
 
 .into-text{
-    color: rgb(194, 147, 170);
+    color: white;
     font-family: "Heebo", "sans-serif";
     font-size: 2rem;
 }
@@ -75,3 +75,70 @@ min-height: 10vh;
 transform: translateY(100%);
 display: inline-block;
 }
+/* 
+.readings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    margin-top: 100px;
+    background-size: 100%;
+   /* padding: 160px 12px;  */
+    /* width: auto;
+    height: auto;
+    font-size: 150px;
+
+
+}; */
+
+
+    /* .one{
+        border: solid 1px red;
+        color: #ffffff;
+        background: url(./1.jpg)
+        background-size: 100%;
+        
+        padding: 160px 12px;
+        /* width: 100px;
+        height: 100px;
+        font-size: 150px; */
+        /* padding: 160px 12px;
+    
+        padding-right: 100px;
+        padding-left: 100px;
+        display: block; 
+         line-height: 50px;
+         text-decoration: none; 
+      
+        border: solid 1px rgb(62, 14, 126); */
+      
+       
+
+/* 
+.card-tarot{
+
+    width: 100px;
+    height: 100px;
+
+} */
+
+.first-card{
+
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.shit{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+/* .card-tarot{
+
+    display: flex;
+    justify-content: space-between;
+} */
