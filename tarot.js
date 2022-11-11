@@ -1,7 +1,10 @@
 var urlArray = [
-  "http://www.google.com",
-  "http://www.yahoo.com",
-  "http://www.stackoverflow.com",
+  "https://dreamy-cranachan-dd9809.netlify.app/judgment.html",
+  "https://dreamy-cranachan-dd9809.netlify.app/tenof.html",
+  "https://dreamy-cranachan-dd9809.netlify.app/hermit.html",
+  "https://dreamy-cranachan-dd9809.netlify.app/thechariot.html",
+  "https://dreamy-cranachan-dd9809.netlify.app/queenof.html",
+  "https://dreamy-cranachan-dd9809.netlify.app/thelovers.html",
 ];
 
 function randomUrl() {
