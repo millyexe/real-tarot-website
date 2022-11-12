@@ -5,6 +5,12 @@ var urlArray = [
   "https://dreamy-cranachan-dd9809.netlify.app/thechariot.html",
   "https://dreamy-cranachan-dd9809.netlify.app/queenof.html",
   "https://dreamy-cranachan-dd9809.netlify.app/thelovers.html",
+  "https://dreamy-cranachan-dd9809.netlify.app/sevenpentacles.html",
+  "https://dreamy-cranachan-dd9809.netlify.app/aceofwands.html",
+  "https://dreamy-cranachan-dd9809.netlify.app/aceofcups.html",
+  "https://dreamy-cranachan-dd9809.netlify.app/thefool.html",
+  "https://dreamy-cranachan-dd9809.netlify.app/theeofcops.html",
+  "https://dreamy-cranachan-dd9809.netlify.app/theworld.html",
 ];
 
 function randomUrl() {
