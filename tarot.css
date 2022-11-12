@@ -149,6 +149,7 @@ display: inline-block;
     font-size: 35px;
     display: flex;
     justify-content: center;
+    margin: unset;
     }
 
     .big-text{
@@ -171,4 +172,8 @@ display: inline-block;
 
 
     }
+    .big-text{
+        top: 20%;
+    }
+    
 }
