@@ -159,6 +159,7 @@ display: inline-block;
         font-size: 2rem;
         display: flex;
     justify-content: center;
+    }
 
     .shit{
         display: block;
