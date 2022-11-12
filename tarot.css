@@ -142,3 +142,32 @@ display: inline-block;
     display: flex;
     justify-content: space-between;
 } */
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .big-text{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-30%);
+        font-size: 2rem;
+        display: flex;
+    justify-content: center;
+
+    .shit{
+        display: block;
+        margin-top: 250px;
+    }
+
+    .into-text{
+        font-size: 15px;
+
+
+    }
+}
