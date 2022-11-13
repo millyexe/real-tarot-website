@@ -146,7 +146,7 @@ display: inline-block;
 
 @media only screen and (max-width: 600px) {
     h1 {
-    font-size: 35px;
+    font-size: 0px;
     display: flex;
     justify-content: center;
     margin: unset;
@@ -173,10 +173,10 @@ display: inline-block;
 
     }
     .big-text{
-        top: 15%;
+        top: 10%;
     }
     .shit{
-        margin-top: 200px;
+        margin-top: 190px;
     }
     .card-tarot{
         width: 100px;
