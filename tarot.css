@@ -9,13 +9,13 @@ main{
     padding: 0rem 5rem;
 }
 
- nav{
+  nav{
 display: flex;
 align-items: center;
 justify-content: space-between;
 min-height: 10vh;
-}
-
+} 
+/* 
  .nav-links{
     display: flex;
     list-style: none;
@@ -24,7 +24,7 @@ min-height: 10vh;
 
     padding-left: 2rem;
     font-size: 1.2rem;
-} 
+}  */ */
 
 #Logo{
     font-family: "Lobster", cursive;
