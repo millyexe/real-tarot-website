@@ -150,8 +150,8 @@ display: inline-block;
     display: flex;
     justify-content: center;
     margin: unset;
-    color: #00000000;
     
+
     }
 
     .big-text{
@@ -189,4 +189,7 @@ display: inline-block;
         font-size: 15px;
 
     }
+h3{color: #00000000 ;
+}
+    
 }
