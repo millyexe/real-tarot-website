@@ -160,6 +160,7 @@ display: inline-block;
 
     }
 
+
     .big-text{
         position: absolute;
         top: 30%;
@@ -181,8 +182,11 @@ display: inline-block;
 
     }
     .big-text{
-        font-size: 16px;
-        top: 11%;
+        font-size: 20px;
+        top: 17%;
+        height: 100px;
+    width: 265px;
+
     }
     .shit{
         margin-left: 95px;
