@@ -166,7 +166,7 @@ display: inline-block;
 
     .shit{
         display: block;
-        margin-top: 130px;
+        margin-top: 120px;
     }
 
     .into-text{
@@ -176,11 +176,11 @@ display: inline-block;
     }
     .big-text{
         font-size: 21px;
-        top: 15%;
+        top: 11%;
     }
-    .shit{
+    /* .shit{
         margin-top: 190px;
-    }
+    } */
     .card-tarot{
         width: 100px;
     height: 50px;
