@@ -173,7 +173,13 @@ display: inline-block;
 
     }
     .big-text{
-        top: 20%;
+        top: 15%;
     }
-    
+    .shit{
+        margin-top: 200px;
+    }
+    .card-tarot{
+        width: 100px;
+    height: 50px;
+    }
 }
