@@ -13,9 +13,10 @@ main{
 display: flex;
 align-items: center;
 justify-content: space-between;
-min-height: 10vh;
+max-height: 30px;
+background-color: rgba(255, 255, 255, 0.657);
 } 
-/* 
+
  .nav-links{
     display: flex;
     list-style: none;
@@ -24,7 +25,7 @@ min-height: 10vh;
 
     padding-left: 2rem;
     font-size: 1.2rem;
-}  */ */
+}  
 
 #Logo{
     font-family: 'Sono', sans-serif;
@@ -39,8 +40,8 @@ h3{
 }
 .big-text{
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 20%;
+    left: 51%;
     transform: translate(-50%,-30%);
     font-size: 3rem;
     font-family: 'Sono', sans-serif;
@@ -183,7 +184,7 @@ display: inline-block;
     }
     .big-text{
         font-size: 20px;
-        top: 17%;
+        top: 12%;
         height: 100px;
     width: 265px;
 
@@ -201,11 +202,11 @@ display: inline-block;
     }
 h3{color: black;
     margin-left: 15px;
-    margin-top: -33px;
+    margin-top: 13px;
     font-size: 13px;
 }
 .nav{
-    min-height: 5vh;
+    max-height: 3vh;
 }
     
 }
