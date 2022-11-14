@@ -1,6 +1,15 @@
 h1{
-font-size: 30px;
-margin-top: 0%;
+    font-size: 21px;
+    margin-top: 5px;
+margin-left: 30px;
+font-family: 'Sono', sans-serif;
+display: block;
+font-size: 1.17em;
+/* margin-block-start: 1em;
+margin-block-end: 1em; */
+/* margin-inline-start: 0px;
+margin-inline-end: 0px; */
+font-weight: bold;
 
 
 }
@@ -16,14 +25,20 @@ margin-top: 0%;
     justify-content: space-between;
 }
 .nav-links{
-
+    margin-top: 12px;
     list-style: none;
     text-decoration: none;
+    font-family: 'Sono', sans-serif;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+   
 }
 
 body{
     background-image: url(./pink-sky-background-with-crescent-moon_53876-129048.webp);
     background-size: cover;
+    display: block;
+    margin: 8px;
 }
 
 .boxes{
@@ -62,6 +77,7 @@ body{
 p{
     display: flex;
     justify-content: center;
+    font-family: 'Sono', sans-serif;
 }
 .bowl{
     display: flex;
@@ -72,11 +88,34 @@ p{
 p3{
     display: flex;
     justify-content: center;
+    font-family: 'Sono', sans-serif;
+}
+p2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sono', sans-serif;
 }
 
+p5{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sono', sans-serif;
+}
+p4{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sono', sans-serif;
+}
+p6{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sono', sans-serif;
+}
+  
 .top{
-    background-color: rgba(255, 255, 255, 0.389);
-    max-height: 40px;
+    background-color: rgba(255, 255, 255, 0.657);
+    max-height: 30px;
+    margin-right:0%;
 }
 
 /* .polo{
@@ -91,7 +130,63 @@ h2{
     margin-top: 40px;
     margin-bottom: 0%;
     background-color: aliceblue;
+    font-family: 'Sono', sans-serif;
 }
+
+.candel{
+    height: 250px;
+    width: 250px;
+}
+
+.cards{
+    height: 250px;
+    width: 250px;
+    display: flex;
+   
+}
+.books{
+    height: 250px;
+    width: 250px;
+    display: flex;
+  
+}
+.boxes2{
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.389);
+    padding: 0%;
+    margin-top: 85px;
+    list-style: none;
+    text-decoration: none;
+}
+.classic-tarot{
+    display: flex;
+    justify-content: center;
+}
+
+
+.candels{
+    display: flex;
+    justify-content: center;
+}
+.book{
+    display: flex;
+    justify-content: center;
+}
+.shop-two{
+  
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+.taps2{
+   
+        display: flex;
+        justify-content: center;
+    }
+    
 
 
 @media only screen and (max-width: 600px){
@@ -100,11 +195,25 @@ h2{
     justify-content: center;
 }
 h1{
-    font-size: 20px;
-    margin-top: 5px;
+    color: black;
+    margin-left: 15px;
+    margin-top: 8px;
+    font-size: 13px;
 }
 h2{
-    font-size: 17px;
+    font-size: 14px;
     margin-bottom: -50px;
+}
+.nav-links{
+    margin-top: 12px;
+  
+}
+.tap{
+    font-size: 18px;
+    margin-top: -7px;
+}
+.boxes2{
+    display: block;
+    justify-content: center;
 }
 }
