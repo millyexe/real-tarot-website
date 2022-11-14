@@ -1,0 +1,110 @@
+h1{
+font-size: 30px;
+margin-top: 0%;
+
+
+}
+.tap{
+    font-size: 20px;
+    margin-top: -10px;
+    /* background-color: white;
+    border: solid black 2px; */
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(./pink-sky-background-with-crescent-moon_53876-129048.webp);
+    background-size: cover;
+}
+
+.boxes{
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.389);
+    padding: 0%;
+    margin-top: 85px;
+}
+
+/* .taps{
+
+    border: solid 25px red;
+} */
+
+ .pink-cards{
+    height: 250px;
+    width: 250px;
+}
+
+.polo-santos{
+    height: 250px;
+    width: 250px;
+
+}
+.polo{
+    display: flex;
+    justify-content: center
+}
+ .pink{
+    display: flex;
+    justify-content: center
+  
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.bowl{
+    display: flex;
+    justify-content: center;
+    
+}
+
+p3{
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    background-color: rgba(255, 255, 255, 0.389);
+    max-height: 40px;
+}
+
+/* .polo{
+
+    margin-left: 110px;
+}  */
+
+h2{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 0%;
+    background-color: aliceblue;
+}
+
+
+@media only screen and (max-width: 600px){
+.boxes{
+    display: block;
+    justify-content: center;
+}
+h1{
+    font-size: 20px;
+    margin-top: 5px;
+}
+h2{
+    font-size: 17px;
+    margin-bottom: -50px;
+}
+}
