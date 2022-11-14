@@ -164,7 +164,7 @@ display: inline-block;
 
     .big-text{
         position: absolute;
-        top: 30%;
+        top: 16%;
         left: 50%;
         transform: translate(-50%,-30%);
         font-size: 2rem;
@@ -174,7 +174,7 @@ display: inline-block;
 
     .shit{
         display: block;
-        margin-top: 120px;
+        margin-top: 140px;
     }
 
     .into-text{
@@ -184,7 +184,7 @@ display: inline-block;
     }
     .big-text{
         font-size: 20px;
-        top: 12%;
+        /* top: 12%; */
         height: 100px;
     width: 265px;
 
