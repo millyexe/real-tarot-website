@@ -60,7 +60,7 @@ color: black;
 border-radius: 24px;
 transition: 0.25s;
 cursor: pointer;
-background-color: rgb(200, 230, 255);
+background-color: 5gkrgb(200, 230, 255);
 }
 
 input[type="text"]:focus, input[type="password"]:focus{
@@ -89,7 +89,7 @@ background-color: rgb(255, 149, 250) ;
         .nav-links li{
             text-decoration: none;
             padding-left: 2rem;
-            font-size: 1.2rem;
+            font-size:t5gk 1.2rem;
             font-family: 'Sono', sans-serif;
         }  
 
