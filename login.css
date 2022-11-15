@@ -16,7 +16,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: pink;
+    background-color: #ffe4e93b;
     box-shadow: 0px -1px 20px 0px rgb(158, 70, 99) ;
     /* border: 2px solid red; */
 }
@@ -60,16 +60,17 @@ color: black;
 border-radius: 24px;
 transition: 0.25s;
 cursor: pointer;
+background-color: rgb(200, 230, 255);
 }
 
 input[type="text"]:focus, input[type="password"]:focus{
     width: 200px;
-    border-color: red;
+    border-color: rgb(255, 149, 250);
 }
 
 
 input[type="submit"]:hover{
-background-color: rgb(158, 70, 99) ;
+background-color: rgb(255, 149, 250) ;
 
 }
     
