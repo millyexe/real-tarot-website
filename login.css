@@ -1,6 +1,6 @@
 body{
    
-   margin: 0;
+   margin: 8px;
    padding: 0;
     background-image: url(./pink-sky-background-with-crescent-moon_53876-129048.webp);
     background-size: cover;
@@ -17,17 +17,18 @@ body{
     transform: translate(-50%, -50%);
     color: white;
     background-color: pink;
-    box-shadow: 0px -1px 20px 0px blue ;
-    border: 2px solid red;
+    box-shadow: 0px -1px 20px 0px rgb(158, 70, 99) ;
+    /* border: 2px solid red; */
 }
 
 .login_box h1{
     text-align: center;
     font-weight: 500;
-    font-family: sans-serif;
+   
     margin-bottom: 10px;
     padding: 13px 0;
-    color: brown;
+    color: black;
+    font-family: 'Sono', sans-serif;
 }
 input[type="text"], input[type="password"]{
 display: block;
@@ -40,7 +41,9 @@ padding: 14px 10px;
 outline: none;
 color: black;
 border-radius: 24px;
-transition: 0.25s;
+transition: 1s;
+cursor: pointer;
+background-color: aliceblue;
 
 
 }
@@ -61,10 +64,46 @@ cursor: pointer;
 
 input[type="text"]:focus, input[type="password"]:focus{
     width: 200px;
-    border-color: blue;
+    border-color: red;
 }
 
 
 input[type="submit"]:hover{
-background-color: green;
+background-color: rgb(158, 70, 99) ;
+
 }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-height: 30px;
+        background-color: rgba(255, 255, 255, 0.657);
+        } 
+        
+         .nav-links{
+            display: flex;
+            list-style: none;
+        }
+        .nav-links li{
+            text-decoration: none;
+            padding-left: 2rem;
+            font-size: 1.2rem;
+            font-family: 'Sono', sans-serif;
+        }  
+
+        h2{
+            font-family: 'Sono', sans-serif;
+            margin-left: 30px;
+            font-size: 1.17em;
+        }
+
+
+        @media only screen and (max-width: 600px){
+            h2{
+     margin-left: 15px;
+    margin-top: 14px;
+    font-size: 13px;
+}
+     }
+        
